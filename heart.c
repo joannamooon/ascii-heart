@@ -31,7 +31,7 @@ int main() {
     }
     printf("\x1b[H");
     for (int i = 0; i < 100 * 40; i++)
-      putchar(i % 100 ? " .,-~:;=!*#$@@"[lroundf(depthBuffer[i] / maxDepth * 13)] : '\n');
+      putchar(i % 100 ? " .,-~:;=!*&B$@"[lroundf(depthBuffer[i] / maxDepth * 13)] : '\n');
     timeStep += 0.003f;
     usleep(3000);
   }
