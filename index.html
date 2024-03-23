@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart</title>
+    <style>
+        body {
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #shapeCanvas {
+            justify-content: center;
+            align-items: center;
+        }
+        .center-div {
+            display: flex;
+            margin-top: 13%;
+            margin-right: 7%;
+            justify-content: center;
+            align-items: center;
+        }
+        .dark-mode {
+            background-color: #191825;
+            color: #E95793;
+        }
+ 
+        .light-mode {
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <span style="cursor: pointer; text-decoration: underline; padding: 0.5%;" onclick="lightMode()">[Light]</span>
+    <span style="cursor: pointer; text-decoration: underline; padding: 0.5%" onclick="darkMode()">[Dark]</span>
+    <a href="https://www.desmos.com/3d/fe76eb4b1d" style="color: #E95793; padding: 0.5%">[3D Graph]</a>
+    <div class="center-div">
+        <canvas id="shapeCanvas" width="700" height="470"></canvas>
+    </div>
+    <script src="heart.js"></script>
+</body>
+</html>
