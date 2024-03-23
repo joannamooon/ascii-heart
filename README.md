@@ -1,3 +1,5 @@
+See it here: https://joannamooon.github.io/ascii-heart/
+
 Created at the end of my 1B term @ UWaterloo. 
 
 I learned linear algebra this term, and my favorite part about the course was transformations. I took inspo from the infamous spinning donut, but wanted to make a heart 💖. I'm finally satsified by actually being able to understand the math behind the rotations. 
