@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
-        t += 0.005;
+        t += 0.003;
         requestAnimationFrame(draw); 
     }
     
